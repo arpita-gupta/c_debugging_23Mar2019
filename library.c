@@ -1,9 +1,9 @@
 #include <stdio.h>
-struct node
+typedef struct node
 {
 	int value;
 	struct node * ptr;
-};
+} node;
 int enqueue(node * ptr1, node * ptr2){
 	/*enqueues ptr2 after ptr1*/
 	printf("enqueue...\n");
