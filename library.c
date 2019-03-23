@@ -11,9 +11,9 @@ int enqueue(node * ptr1, node * ptr2){
 }
 int show(struct node * ptra){
 	/*shows a particular element of the queue*/
-	printf("\n%p\t", ptra);
-	printf("{%d\t", ptra->value);
-	printf("%p}\n", ptra->ptr);
+	printf("\n %p\t", ptra);
+	printf("%d \t", ptra->value);
+	printf("%p \n", ptra->ptr);
 }
 int show_q(struct node * ptra){
 	/*shows all the elements of the queue*/
